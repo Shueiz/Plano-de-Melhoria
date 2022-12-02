@@ -3,7 +3,7 @@
   O banco de dados apresenta uma lista de clientes com seus nomes, 
   telefones e cidades onde moram, apresentada abaixo:
   
-   ![alt text]( https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/image.png)
+   ![alt text]( https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/imagem_2022-12-02_141549149.png)
    
  ## Análise dos Dados
  
