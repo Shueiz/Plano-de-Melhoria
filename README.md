@@ -7,13 +7,11 @@
    
  ## Análise dos Dados
  
- ### Nomes Iguais
+ ### Região Mais Acessada
  
-  Dentro dessa lista, caso seja necessário saber, por exemplo, quantas pessoas 
-  tem o mesmo nome e qual é esse nome, a sintaxe que foi utilizada para puxar essa informação 
-  foi:
+  Dentro dessa lista, caso seja necessário saber o DDD de um cliente, o código usado para puxar essa informação foi: 
   
- > select*from Tbl_Cliente where (nome) in (select nome FROM Tbl_Cliente group by nome having count (distinct id_cliente) > 1) order by nome asc
+ > select*from TabelaClientes where DDD = '(63)'; 
  
  Resultando nessa tabela:
  
