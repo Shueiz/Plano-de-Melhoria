@@ -19,17 +19,27 @@
  
  Com essa tabela é possível perceber que dos 32 usuários cadastrados, 
  20 deles se encontram no estado do Tocatins, mostrando que o público 
- alvo é voltado para a Região Norte, mais especificamente no Estado Tocatins
+ alvo é voltado para a Região Norte, mais especificamente no Estado do Tocatins
  
- Enquanto que os outros 12 usuários, mostrado nessa tabela abaixo: 
+ Enquanto aos outros 12 usuários, mostrado nessa tabela abaixo: 
  
+ ![alt text]( https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/imagem_2022-12-02_142403854.png)
  
- ### Quantas Pessoas por Cidade
+ Esses 12 usuários se localizam na Região Centro-Oeste, mais especificamente no Estado de Goiás 
+
  
-  Agora caso fosse necessário requistar, por exemplo, quantos usuários estão em uma cidade específica
-  a sintaxe utilizada para puxar a informação sobre essa cidade foi:
+ ### Cidade com mais Usuários
+ 
+ Caso seja necessário saber qual a cidade com mais usuários, o 
+ código utilizado para buscar essa informação é 
   
-  > select*from Tbl_Cliente where cidade = 'Goiânia'; 
+  > SELECT 
+   cidade, 
+   count(*) AS total_por_cidade 
+FROM TabelaClientes
+WHERE cidade IS NOT NULL
+GROUP BY cidade
+ORDER BY count(*) desc
   
   Resultando nessa tabela: 
   
