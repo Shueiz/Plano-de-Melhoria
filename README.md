@@ -43,6 +43,15 @@ ORDER BY count(*) desc
   
   Resultando nessa tabela: 
   
-  ![alt text](  https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/imagem_2022-11-25_185343284.png)
+  ![alt text](  https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/imagem_2022-12-02_144620998.png)
+  
+  Com base nessa tabela é possível perceber que a cidade de Araguaína 
+  possui mais usuários que as outras cidades, enquanto que o estado 
+  de Goiás possui diferentes cidades com usuários registrados 
+  em coparação ao estado de Tocantins.
+  Em contrapartida os usuários registrados no estado 
+  de Goiás se localizam na capital do estado, mostrando
+  que o público não se espalhou para outras cidades do 
+  interior com a mesma velocidade que se espalhou na capital 
   
  
