@@ -15,7 +15,13 @@
  
  Resultando nessa tabela:
  
- ![alt text]( https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/imagem_2022-11-25_184753207.png)
+ ![alt text]( https://github.com/Shueiz/Plano-de-Melhoria/blob/main/Imagens/imagem_2022-12-02_141946854.png)
+ 
+ Com essa tabela é possível perceber que dos 32 usuários cadastrados, 
+ 20 deles se encontram no estado do Tocatins, mostrando que o público 
+ alvo é voltado para a Região Norte, mais especificamente no Estado Tocatins
+ 
+ Enquanto que os outros 12 usuários, mostrado nessa tabela abaixo: 
  
  
  ### Quantas Pessoas por Cidade
